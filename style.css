@@ -1,0 +1,140 @@
+body {
+	text-align: center;
+	margin: 0px;
+	padding-top: 800px;
+}
+#welcome {
+	position: absolute;
+	color: black;
+	bottom: 0;
+	opacity: 0.83;
+	display: table;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+
+h1 {
+	font-size: 40px;
+	line-height: 1.2;
+	font-family: 'Poiret One', cursive;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 30px;
+	line-height: 1.2;
+	font-family: 'Poiret One', cursive;
+	font-weight: 300;
+}
+
+.line {
+	height: 6px;
+	width: 70px;
+	margin: 8px auto;
+	background-color: black;
+}
+
+p {
+	font-size: 17px;
+	max-width: 450px;
+	line-height: 1.3;
+	margin: 25px auto;
+font-family: 'Poiret One', cursive;
+}
+
+.inner {
+	display: table-cell;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.menu {
+	font-family: 'Poiret One', cursive;
+	position: fixed;
+	top: 0px;
+	z-index: 50;
+	cursor: pointer;
+	margin-top: 0px;
+	width: 100%;
+}
+
+.links {
+	display :inline;
+	padding-left: 33px;
+	padding-right: 25px;
+font-family: 'Poiret One', cursive;
+	font-size: 25px;
+
+}
+.links:hover {
+	font-size: 35px;
+	text-decoration: underline;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.article:hover {
+	color: darkviolet;
+
+}
+
+a {
+	text-decoration: none;
+	color: darkblue;
+	text-shadow: 2px 2px gainsboro;
+	
+}
+img{
+	height: 50%;
+	width: 50%;
+}
+#Maths{
+	background-color: #fce1e1;
+}
+Language{
+	background-color: #e7fce1;
+}
+#Arts{
+	background-color: #e1fcfb;
+}
+#Music{
+	background-color:#e4e1fc;
+}
+#Science{
+	background-color:#fbe1fc;
+}
+#Chemistry{
+	background-color:#fce1ed;
+}
+#Biology{
+	background-color:#fce1e1;
+}
+#Geography{
+	background-color:#f7dfc6;
+}
+#History{
+	background-color:#f3f7c6;
+}
+#Health{
+	background-color:#c6f7cf
+;
+}
+#Social_Studies{
+	background-color:#c6d6f7;
+}
+#Drama{
+	background-color:#ecc6f7;
+}
+#Dance{
+	background-color:#f7c6ec;
+}
+#Sports{
+	background-color:#f7c6d7;
+}
+#Technology{
+	background-color:#f7c6c6;
+}
